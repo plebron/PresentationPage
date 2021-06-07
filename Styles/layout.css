@@ -195,7 +195,8 @@ section{
 	position:relative;
 }
 .rez_top_title h1{
-	color:#ffffff;
+	color:#808080;
+	text-shadow: 3px 5px #f7f7f7;
 	font-family: 'Lato', sans-serif; font-weight:900;
 	margin-top:-75px;
 	font-size:48px;
@@ -247,9 +248,8 @@ h1.title {
 
 .about{
 	padding-right: 0px !important;
-    padding-left: 0px !important; 
-	
-	}
+	padding-left: 0px !important;
+}
 .about_info{
 	line-height: 36px;
     font-size: 18px;
