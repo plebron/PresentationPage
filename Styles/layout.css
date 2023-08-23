@@ -43,8 +43,8 @@ ul li { margin-bottom:15px; }
 
 a { color:#00bbcc; }
 a:focus, a:hover, a.active {color:#00bbcc;  }
-section{
-}
+
+
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   font-size:18px !important;
   font-family: 'Lato', sans-serif !important;
@@ -124,8 +124,7 @@ section{
 	background:url(../Resources/Images/header_background-wood.jpg) no-repeat center center;
 	min-height:300px;
 }
-.rzm_profile_nav{
-}
+
 /*===== .logo =====*/
 .logo img{
 	margin-top:-150px;
@@ -215,8 +214,7 @@ h1.title {
 	font-family: 'Lato', sans-serif; font-weight:700;
 	padding: 135px 0 36px 0;
 }
-.rzm_progress_bar{
-}
+
 .rzm_progress_bar h4{
 	color:#808080 !important;
 	font-family: 'Lato', sans-serif; font-weight:900;
