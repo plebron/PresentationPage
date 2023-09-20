@@ -1,0 +1,19 @@
+{
+    "nav": {
+      "about": "Acerca de mi",
+      "home": "Inicio",
+      "portfolio": "Mi Portafolio"
+    },
+    "about": {
+      "h1": "Hola! Mi nombre es Pedro Lebron.",
+      "p": "Ich bin ein Webdesigner und Entwickler aus Sydney mit mehr als 10 Jahren Erfahrung. Ich habe eine Leidenschaft für schöne, intuitive und qualitativ hochwertige Lösungen. Ich habe umfangreiche Erfahrung mit Webdesign und seiner Entwicklung. Zuvor habe ich in Instagram und Square in San Francisco gearbeitet."
+  },
+    "home": {
+      "h1": "Hola! Soy Pedro Lebron.",
+      "h2": "Soy desarrollador de software."
+    },
+    "portfolio": {
+      "h1": "Aqui estan los ejemplos mas recientes de mi trabajo.",
+      "h2": "Wenn Sie mehr sehen möchten, kontaktieren Sie mich bitte per E-Mail oder über soziale Netzwerke, die auf der Seite Über mich aufgelistet sind."
+  }
+  }

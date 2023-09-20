@@ -3,33 +3,33 @@ import './App.css';
 
 // Imports
 import React from 'react'
-import { Route } from 'react-router-dom'
+import { Route, Routes  } from 'react-router-dom'
 
 // Import Context
-import { MyContext } from 'context'
+import { MyContext } from './context'
 
 // Import pages
-import Home from './pages/Home'
-import Portfolio from './pages/Portfolio'
-import About from './pages/About'
+import Home from './app/pages/Home'
+import Portfolio from './app/pages/Portfolio'
+import About from './app/pages/About'
 
 // Import components
-import Header from './components/Header'
+import Header from './app/components/header'
 
 function App() {
   return (
-    <MyContext.Consumer>
-      {(context) => (
-        <React.Fragment>
-          <Header context={context} />
-
-          <Route exact={true} path="/" component={Home}/>
-          <Route path="/portfolio" component={Portfolio}/>
-          <Route path="/about" component={About}/>
-          
-        </React.Fragment>
-      )}
-    </MyContext.Consumer>
+      <MyContext.Consumer>
+        {(context) => (
+          <div className="App">
+            <Header context={context} />
+            <Routes>
+              <Route exact={true} path="/" element={ <Home/> } />
+              <Route path="/portfolio" element={ <Portfolio/> }/>
+              <Route path="/about" element={ <About/> } />
+            </Routes>            
+          </div>
+        )}
+      </MyContext.Consumer>
   );
 }
 
